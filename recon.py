@@ -32,7 +32,7 @@ def main():
             network_info.show_network_info()
         
         elif choice == "3":
-            print("\nFile Information is coming soon.")
+            file_info.show_file_info()
 
         elif choice == "4":
             port_scanner.scan_host()
