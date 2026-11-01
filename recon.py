@@ -1,4 +1,4 @@
-from modules import system_info
+from modules import system_info, network_info
 
 
 def display_banner():
