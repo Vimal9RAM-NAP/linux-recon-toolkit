@@ -35,7 +35,7 @@ def main():
             print("\nFile Information is coming soon.")
 
         elif choice == "4":
-            print("\nPort Scanner is coming soon.")
+            port_scanner.scan_host()
 
         elif choice == "5":
             print("\nExiting Linux Recon Toolkit. Goodbye!")
