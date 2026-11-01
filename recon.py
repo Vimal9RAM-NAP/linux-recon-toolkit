@@ -27,10 +27,10 @@ def main():
 
         if choice == "1":
             system_info.show_system_info()
-
+            
         elif choice == "2":
-            print("\nNetwork Information is coming soon.")
-
+            network_info.show_network_info()
+        
         elif choice == "3":
             print("\nFile Information is coming soon.")
 
