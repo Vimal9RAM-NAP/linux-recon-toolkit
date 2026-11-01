@@ -1,4 +1,4 @@
-from modules import system_info, network_info
+from modules import system_info, network_info, file_info, port_scanner
 
 
 def display_banner():
@@ -27,7 +27,7 @@ def main():
 
         if choice == "1":
             system_info.show_system_info()
-            
+
         elif choice == "2":
             network_info.show_network_info()
         
